@@ -59,10 +59,57 @@ This is the initial phase where the players buy and place units on the game area
 * When the player starts, the counter should be clearly visible and counting down from 10.
 * The player can:
   - Run / Jump anywhere on the game area
-  - Attack / use weapon: All players start without weapon and they can only punch. They can then pick up weapons that give them more range or hit points.
-  - Pick up power ups and weapons
-  - Use power ups
-  - Fortify
+  - Attack / use weapon: All players start without weapon and they can only punch. They can then pick up weapons that give them more range or hit points. (See attack/defense mechanic)
+  - Pick up power ups and weapons. 
+  - Use power ups (see description of powerups below)
+  - Fortify: at any point during the 10 second turn (action view), the player can choose to fortify. Fortify will put this unit in a defensive position and he will remain this way. The unit stays fortified until it gets picked to play again. (See attack/defense mechanic)
+* If the 10 seconds run out and the unit is outdoors, then that unit dies instantly.
+
+## ATTACK / DEFENSE MECHANIC
+* An attack that hits an enemy unit will remove health from that unit in proportion to the strength of the character multiplied by the damage of the weapon it is using.
+* Each attack will take some time to complete, some weapons make this time longer.
+* If the attacked unit is fortified, it will take less damage proportionally to it's defense stat.
+* If the attacked unit is not fortified, the defence stat is useless.
+
+## POWER UPS
+* The player, during the 10 second round, can at any moment use one of the power ups it has picked up before.
+* There is a button to cycle through the current power ups. It should be clear on the screen what is the currently selected power up.
+* If the player uses the power up it gets spent.
+
+### Adrenaline
+The player gets a 10 second 50% boost in speed.
+
+### Rage 
+The player gets a 5 second 10% boost in strength
+
+### Time machine
+The player can freeze the 10 second counter for 3 seconds
+
+## WEAPONS
+### No waepon / Punch
+damage : 1
+speed : 10
+range : 0
+
+### PowerPunch (like a glove or brass knuckles or boxing wraps)
+damage : 2
+speed : 10
+range : 0
+
+### knife
+damage : 3
+speed : 8
+range : 0
+
+### WarHammer
+damage : 8
+speed : 4
+range : 1 (extends the range by a radius of one Unity unit)
+
+### Gun
+damage : 5
+speed : 3
+range : about 1/3 of the diagonal of the playarea
 
 ## ASSETS
 
