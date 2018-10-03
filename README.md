@@ -145,3 +145,20 @@ https://assetstore.unity.com/packages/3d/animations/move-motion-free-pack-25900 
 
 Adam photogrametry pack \
 https://assetstore.unity.com/packages/templates/packs/adam-ep2-ep3-photogrammetry-pack-115786 \
+
+## Delivery & Grading:
+You will deliver the assignment by forking this repository, developing the game on your fork and sending a pull request.
+On the pull request description Should be your name and a small description of the features that are there or missing.
+
+The deadline for the pull requests is the 24th of October 2018.
+
+Grading will be based on the point system:
+   * (0 - 40) - Onvoldoende
+   * (41 - 60) - Voldoende
+   * (61 - 85) - Goed
+   * (86 - 100) - Excelent 
+   
+   * Code / architecture quality - 25 points max
+   * Features implemented - 25 points max
+   * Visual quality - 20 points max
+   * Overall game quality - 30 points max
