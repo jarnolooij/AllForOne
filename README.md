@@ -35,15 +35,34 @@ The play area will be partly indoor, partly outdoor, there will be one or more s
 
 ## PRE-GAME MECHANICS
 This is the initial phase where the players buy and place units on the game area. The flow is as follows:
-* Player gets a 
+* Player gets a Unit character that is displayed on the screen with randomized body (this can be a different scene or a overlay).
+* The stats of the unit are shown and the current price of the unit as well. These are randomly assigned by default but around the mid-range.
+* The player can choose any value for each stats. That will cause the price to be recalculated (see balancing).
+* When the player is ready to buy then he should hit the "Hire" button. This takes the game to the top view of the game area and the player will then click a location where the Unit should spawn.
+
+### Balancing
+* A unit with full stats (100% on all stats), will cost 100 points 
+* A unit with the minimum skill (1% on all stats) should cost about 10 points.
+* Each skill has different cost, they are distributed in this order:
+  - Health and Speed (Same price / Most expensive)
+  - Strength and Defense (Same price / Slightly cheaper)
 
 ## BOARD MECHANICS DETAIL
 
-Coming soon...
+* The full game area should be visible on the top view.
+* First thing that happens when a turn starts is that a power up spawns randomly on the scene. This should be clearly visible.
+* There should be a clear element that tells which player's turn it is.
+* The color of the units should also be clearly visible.
 
 ## ACTION MECHANICS DETAIL
 
-Coming soon...
+* When the player starts, the counter should be clearly visible and counting down from 10.
+* The player can:
+  - Run / Jump anywhere on the game area
+  - Attack / use weapon: All players start without weapon and they can only punch. They can then pick up weapons that give them more range or hit points.
+  - Pick up power ups and weapons
+  - Use power ups
+  - Fortify
 
 ## ASSETS
 
