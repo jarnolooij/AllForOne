@@ -87,29 +87,29 @@ The player can freeze the 10 second counter for 3 seconds
 
 ## WEAPONS
 ### No waepon / Punch
-damage : 1
-speed : 10
-range : 0
+damage : 1 \
+speed : 10 \
+range : 0 \
 
 ### PowerPunch (like a glove or brass knuckles or boxing wraps)
-damage : 2
-speed : 10
-range : 0
+damage : 2 \
+speed : 10 \
+range : 0 \
 
 ### knife
-damage : 3
-speed : 8
-range : 0
+damage : 3 \
+speed : 8 \ 
+range : 0 \
 
 ### WarHammer
-damage : 8
-speed : 4
-range : 1 (extends the range by a radius of one Unity unit)
+damage : 8 \
+speed : 4 \
+range : 1 (extends the range by a radius of one Unity unit) \
 
 ### Gun
-damage : 5
-speed : 3
-range : about 1/3 of the diagonal of the playarea
+damage : 5 \
+speed : 3 \
+range : about 1/3 of the diagonal of the playarea \
 
 ## ASSETS
 
