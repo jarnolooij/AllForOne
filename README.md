@@ -86,7 +86,7 @@ The player gets a 5 second 10% boost in strength
 The player can freeze the 10 second counter for 3 seconds
 
 ## WEAPONS
-### No waepon / Punch
+### No weapon / Punch
 damage : 1 \
 speed : 10 \
 range : 0 \
