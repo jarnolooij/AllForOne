@@ -1,7 +1,8 @@
-# AllForOne
+# AllForOne Assignment
 
 ## DESCRIPTION
 On this assignment everyone makes the same game. How you make it is what matters...
+The assignment is focused on code elegance and production value. You do not need to add all the mechanics described, but prioritize carfully so that you end up with a game that makes sense and is playable.
 
 ## GENERAL MECHANICS
 
