@@ -87,64 +87,64 @@ The player can freeze the 10 second counter for 3 seconds
 
 ## WEAPONS
 ### No weapon / Punch
-damage : 1 \
-speed : 10 \
-range : 0 \
+damage : 1 <br/>
+speed : 10 <br/>
+range : 0 <br/>
 
 ### PowerPunch (like a glove or brass knuckles or boxing wraps)
-damage : 2 \
-speed : 10 \
-range : 0 \
+damage : 2 <br/>
+speed : 10 <br/>
+range : 0 <br/>
 
 ### knife
-damage : 3 \
-speed : 8 \ 
-range : 0 \
+damage : 3 <br/>
+speed : 8 <br/> 
+range : 0 <br/>
 
 ### WarHammer
-damage : 8 \
-speed : 4 \
-range : 1 (extends the range by a radius of one Unity unit) \
+damage : 8 <br/>
+speed : 4 <br/>
+range : 1 (extends the range by a radius of one Unity unit). <br/>
 
 ### Gun
-damage : 5 \
-speed : 3 \
-range : about 1/3 of the diagonal of the playarea \
+damage : 5 <br/>
+speed : 3 <br/>
+range : about 1/3 of the diagonal of the playarea. <br/>
 
 ## ASSETS
 
-Scyfi interior \
-https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913 \
+Scyfi interior <br/>
+https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913 <br/>
 
-Skybox \
-https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633 \
-https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-116333 \
+Skybox <br/>
+https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633 <br/>
+https://assetstore.unity.com/packages/3d/environments/sci-fi/real-stars-skybox-116333 <br/>
 
-Corridors \
-https://assetstore.unity.com/packages/3d/environments/urban/simple-corridors-96435 \
+Corridors <br/>
+https://assetstore.unity.com/packages/3d/environments/urban/simple-corridors-96435 <br/>
 
-Procedural male character \
-https://assetstore.unity.com/packages/3d/characters/humanoids/mcs-male-45805 \
+Procedural male character <br/>
+https://assetstore.unity.com/packages/3d/characters/humanoids/mcs-male-45805 <br/>
 
-Procedural female character \
-https://assetstore.unity.com/packages/3d/characters/humanoids/mcs-female-45807 \
+Procedural female character <br/>
+https://assetstore.unity.com/packages/3d/characters/humanoids/mcs-female-45807 <br/>
 
-Character \
-https://assetstore.unity.com/packages/3d/characters/humanoids/combat-character-pack-soldier-96594 \
+Character <br/>
+https://assetstore.unity.com/packages/3d/characters/humanoids/combat-character-pack-soldier-96594 <br/>
 
-Animation General \
-https://assetstore.unity.com/packages/3d/animations/huge-fbx-mocap-library-part-1-19991 \
-https://assetstore.unity.com/packages/3d/animations/huge-fbx-mocap-library-part-2-20282 \
-https://assetstore.unity.com/packages/3d/animations/huge-fbx-mocap-library-part-3-20285 \
+Animation General <br/>
+https://assetstore.unity.com/packages/3d/animations/huge-fbx-mocap-library-part-1-19991 <br/>
+https://assetstore.unity.com/packages/3d/animations/huge-fbx-mocap-library-part-2-20282 <br/>
+https://assetstore.unity.com/packages/3d/animations/huge-fbx-mocap-library-part-3-20285 <br/>
 
-Animation Fighting \
-https://assetstore.unity.com/categories/3d/animations/?k=price%3A0&order_by=relevance&q=category%3A23&q=price%3A0&rows=42 \
+Animation Fighting <br/>
+https://assetstore.unity.com/categories/3d/animations/?k=price%3A0&order_by=relevance&q=category%3A23&q=price%3A0&rows=42 <br/>
 
-Animation Movement \
-https://assetstore.unity.com/packages/3d/animations/move-motion-free-pack-25900 \
+Animation Movement <br/>
+https://assetstore.unity.com/packages/3d/animations/move-motion-free-pack-25900 <br/>
 
-Adam photogrametry pack \
-https://assetstore.unity.com/packages/templates/packs/adam-ep2-ep3-photogrammetry-pack-115786 \
+Adam photogrametry pack <br/>
+https://assetstore.unity.com/packages/templates/packs/adam-ep2-ep3-photogrammetry-pack-115786 <br/>
 
 ## Delivery & Grading:
 You will deliver the assignment by forking this repository, developing the game on your fork and sending a pull request.
@@ -152,13 +152,14 @@ On the pull request description Should be your name and a small description of t
 
 The deadline for the pull requests is the 24th of October 2018.
 
-Grading will be based on the point system:
-   * (0 - 40) - Onvoldoende
-   * (41 - 60) - Voldoende
-   * (61 - 85) - Goed
-   * (86 - 100) - Excelent 
-   
+#### Grading distribution
    * Code / architecture quality - 25 points max
    * Features implemented - 25 points max
    * Visual quality - 20 points max
    * Overall game quality - 30 points max
+
+#### Grading ranges:
+   * (0 - 40) - Onvoldoende
+   * (41 - 60) - Voldoende
+   * (61 - 85) - Goed
+   * (86 - 100) - Excelent
