@@ -1,11 +1,22 @@
 # AllForOne
 
 ## DESCRIPTION
-On this assignment everyone makes the same game.
+On this assignment everyone makes the same game. How you make it is what matters...
 
 ## MECHANICS
 
-Coming soon...
+You will build a 3D turn-based digital "board game" in which every turn is played as a third person action game.
+The game is to be played by 2 players. They can be both on the same computer (Chair shuffle) or if you feel super confident you can make it networked (optional). It is recomended to go for chair shuffle first and THEN adapt to networked 
+
+* The game starts with a top view map of a corridor system.
+* Every player has an initial point budget of 100 points to buy and place units anywhere on the map. They do this in turn.
+* Units are humanoid 3D characters. They have a set of stats that amount to:
+  - Health
+  - Strength
+  - Speed
+  - Defense
+
+...To be continued...
 
 ## ASSETS
 
