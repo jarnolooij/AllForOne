@@ -151,7 +151,7 @@ https://assetstore.unity.com/packages/templates/packs/adam-ep2-ep3-photogrammetr
 You will deliver the assignment by forking this repository, developing the game on your fork and sending a pull request.
 On the pull request description Should be your name and a small description of the features that are there or missing.
 
-The deadline for the pull requests is the 22nd of October 2019.
+The deadline for the pull requests is the 22nd of June 2020.
 
 #### Grading distribution
    * Code / architecture quality - 25 points max
