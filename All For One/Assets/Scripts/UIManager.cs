@@ -8,21 +8,30 @@ public class UIManager : MonoBehaviour
 {
    // public GameObject PlayerNameText;
 
-    public TextMeshProUGUI NameText;
+    public GameObject ShopUI;
+
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI moneyText;
     void PlayerName()
     {
-        NameText.text = GameManager.instance.player1.PlayerName;
+        nameText.text = GameManager.instance.CurrentPlayer.PlayerName;
+    }
+
+    void PlayerMoney()
+    {
+       moneyText.text = GameManager.instance.CurrentPlayer.Money.ToString();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        ShopUI.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerName();
+        PlayerMoney();
     }
 }

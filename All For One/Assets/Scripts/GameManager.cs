@@ -7,8 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
 
-    public Player player1;
-    public Player player2;
+    public Player []players;
+    private int currentPlayer;
+    public bool startRounds;
+
+
+    public Player CurrentPlayer => players[currentPlayer];
 
 
     private void Awake()
@@ -22,17 +26,38 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        players = new Player[2];
     }
-
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentPlayer = 0;
+        startRounds = false;
     }
-
+    void StartRounds()
+    {
+        startRounds = true;
+    }
     // Update is called once per frame
     void Update()
     {
+        if (startRounds == true)
+        {
+           
+        }
+    }
+
+    void NextButtonClicked()
+    {
+    }
+
+    void NextPlayer()
+    {
+        currentPlayer++;
+        if(currentPlayer == players.Length)
+        {
+            currentPlayer = 0;
+        }
     }
 }

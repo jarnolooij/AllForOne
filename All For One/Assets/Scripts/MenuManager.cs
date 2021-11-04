@@ -18,12 +18,12 @@ public class MenuManager : MonoBehaviour
     public void setValuePlayerName1()
     {
         username1 = inputField1.GetComponent<TMP_InputField>().text;
-        GameManager.instance.player1 = new Player(username1);
+        GameManager.instance.players[0] = new Player(username1);
     }
     public void setValuePlayerName2()
     {
         username2 = inputField2.GetComponent<TMP_InputField>().text;
-        GameManager.instance.player2 = new Player(username2);
+        GameManager.instance.players[1] = new Player(username2);
     }
 
     private void Start()
