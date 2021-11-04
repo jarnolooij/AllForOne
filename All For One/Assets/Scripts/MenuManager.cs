@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using TMPro;
 
 public class MenuManager : MonoBehaviour
@@ -10,17 +11,19 @@ public class MenuManager : MonoBehaviour
     public GameObject InsertPlayerNames;
     public GameObject inputField1;
     public GameObject inputField2;
+
     string username1;
     string username2;
-    public void getValuePlayerName1()
+
+    public void setValuePlayerName1()
     {
         username1 = inputField1.GetComponent<TMP_InputField>().text;
-        Debug.Log(username1);
+        GameManager.instance.player1 = new Player(username1);
     }
-    public void getValuePlayerName2()
+    public void setValuePlayerName2()
     {
         username2 = inputField2.GetComponent<TMP_InputField>().text;
-        Debug.Log(username2);
+        GameManager.instance.player2 = new Player(username2);
     }
 
     private void Start()
@@ -37,10 +40,8 @@ public class MenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        getValuePlayerName1();
-        getValuePlayerName2();
-        //Debug.Log(username1);
-       // Debug.Log(username2);
+        setValuePlayerName1();
+        setValuePlayerName2();
         SceneManager.LoadScene("PlayGround");
     }
     public void Back()
