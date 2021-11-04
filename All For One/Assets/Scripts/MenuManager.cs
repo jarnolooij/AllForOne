@@ -15,10 +15,12 @@ public class MenuManager : MonoBehaviour
     public void getValuePlayerName1()
     {
         username1 = inputField1.GetComponent<TMP_InputField>().text;
+        Debug.Log(username1);
     }
     public void getValuePlayerName2()
     {
         username2 = inputField2.GetComponent<TMP_InputField>().text;
+        Debug.Log(username2);
     }
 
     private void Start()
@@ -35,8 +37,10 @@ public class MenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        Debug.Log(username1);
-        Debug.Log(username2);
+        getValuePlayerName1();
+        getValuePlayerName2();
+        //Debug.Log(username1);
+       // Debug.Log(username2);
         SceneManager.LoadScene("PlayGround");
     }
     public void Back()
