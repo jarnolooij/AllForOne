@@ -31,11 +31,11 @@ public class UIManager : MonoBehaviour
     void PlayerMoney()
     {
         moneyText.text = GameManager.instance.CurrentPlayer.Money.ToString();
-        //moneyText.text = currentPlayerMoney;
+        
     }
     void subtractBalance()
     {
-        //currentPlayerMoney = GameManager.instance.CurrentPlayer.Money -= healthSlider.value;
+       moneyText.text = GameManager.instance.CurrentPlayer.Money.ToString() - healthSlider.value.ToString();
     }
 
     //sliders UI
