@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class GameManager : MonoBehaviour
@@ -9,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public Player []players;
     private int currentPlayer;
-    public bool startRounds;
+    public bool disableUI;
 
 
     public Player CurrentPlayer => players[currentPlayer];
@@ -33,23 +34,18 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         currentPlayer = 0;
-        startRounds = false;
+        disableUI = false;
     }
-    void StartRounds()
-    {
-        startRounds = true;
-    }
+
     // Update is called once per frame
     void Update()
     {
-        if (startRounds == true)
-        {
-           
-        }
+
     }
 
     void NextButtonClicked()
     {
+        //pick spawnpoint
         currentPlayer++;
     }
 

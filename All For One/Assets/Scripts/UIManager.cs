@@ -9,15 +9,15 @@ public class UIManager : MonoBehaviour
    // public GameObject PlayerNameText;
 
     public GameObject ShopUI;
-    public string currentPlayerMoney;
+    public float currentPlayerMoney;
 
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI moneyText;
-
     public TextMeshProUGUI healthText;
     public TextMeshProUGUI strenghtText;
     public TextMeshProUGUI speedText;
     public TextMeshProUGUI defenceText;
+
     public Slider healthSlider;
     public Slider strenghtSlider;
     public Slider speedSlider;
@@ -32,10 +32,6 @@ public class UIManager : MonoBehaviour
     {
         moneyText.text = GameManager.instance.CurrentPlayer.Money.ToString();
         
-    }
-    void subtractBalance()
-    {
-       moneyText.text = GameManager.instance.CurrentPlayer.Money.ToString() - healthSlider.value.ToString();
     }
 
     //sliders UI
@@ -77,17 +73,28 @@ public class UIManager : MonoBehaviour
     {
         ShopUI.SetActive(true);
         ResetSliders();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.instance.disableUI == true)
+        {
+            ShopUI.SetActive(false);
+        }
+        else
+        {
+            ShopUI.SetActive(true);
+        }
+
         PlayerName();
         PlayerMoney();
         HealthSlider();
         SpeedSlider();
         StrenghtSlider();
         DefenceSlider();
-        subtractBalance();
+
+        
     }
 }

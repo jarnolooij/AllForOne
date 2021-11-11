@@ -43,12 +43,16 @@ public class MenuManager : MonoBehaviour
         setValuePlayerName1();
         setValuePlayerName2();
         SceneManager.LoadScene("PlayGround");
+        GameManager.instance.disableUI = false;
     }
     public void Back()
     {
         MainMenu.SetActive(true);
         InsertPlayerNames.SetActive(false);
     }
-
+    public void next()
+    {
+        GameManager.instance.disableUI = false;
+    }
 
 }
